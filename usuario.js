@@ -18,7 +18,7 @@ const cargartarea = (local, parentNode) =>{
     }
 
 }
-
+//crear elementos de html
 const creartarea = (parentNode,datostarea,local) =>{
     let divTarea = document.createElement("div")
     let h4tarea = document.createElement("span")
@@ -30,7 +30,7 @@ const creartarea = (parentNode,datostarea,local) =>{
     h4desc.innerHTML = datostarea.descripcion
     iconoborrar.innerHTML = "Eliminar"
     iconoActualizar.innerHTML ="Editar"
-
+// clases de css
     divTarea.classList.add("tareaContenedor")
     iconoborrar.classList.add("simbolo")
     iconoActualizar.classList.add("simboloActualizar")
