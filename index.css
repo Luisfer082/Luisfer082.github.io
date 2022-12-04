@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+body{
+     background-color: slategray;
+}
+
+.navs {
+    height: 80px;
+    background-color: blanchedalmond;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/*------------------------------------------------Encabezado--------------------------------------------*/
+.formulario input{
+    display: block;
+    margin:  20px auto;
+    width: 400px;
+    height: 30px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);;
+    border: 0px;
+}
+
+.agregarControlForm{
+    display: block;
+    margin: 10px auto;
+    height: 20px;
+    width: 250px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);;
+
+}
+
+/* listado de tareas*/
+
+.tareaContenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px 500px;
+
+}
+
+.simbolo{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+ /*----------Media quiery -------------------*/
+
+
+
+
+
