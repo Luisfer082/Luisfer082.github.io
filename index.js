@@ -2,7 +2,7 @@
 let tarea = document.querySelector(".tarea")
 let descripcion = document.querySelector(".tdescrip")
 let agregar = document.querySelector(".agregar")
-let Actualizar = document.querySelector(".actualizar")
+
 
 const listaDeTareas = document.querySelector(".listaDeTareas")
 //guardados en local
