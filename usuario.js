@@ -35,14 +35,14 @@ const creartarea = (parentNode,datostarea,local) =>{
     iconoborrar.classList.add("simbolo")
     iconoActualizar.classList.add("simboloActualizar")
 
-
+// para borrar
     iconoborrar.onclick = () =>{
         local.removeItem(datostarea.id)
         window.location.href = "/"  
     }
-
+// no se como hacerla aasaasaaaa
     iconoActualizar.onclick = () =>{
-        alert("aaaa")
+       // alert("aaaa")
        local.getItem(datostarea)
 
     }
